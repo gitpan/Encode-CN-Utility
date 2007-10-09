@@ -8,7 +8,7 @@ use Exporter;
 			 unicode2gbk unicode2utf8
 			 );
 
-$VERSION = '0.2';
+$VERSION = '0.3';
 
 use Encode;
 
@@ -53,8 +53,6 @@ sub AUTOLOAD {
 1;
 __END__
 
-=pod
-
 =encoding utf8
 
 =head1 NAME
@@ -67,8 +65,8 @@ This module provides a flexible interface to convert Chinese Hanzi to its GBK, U
 encodings, and vice versa. Meanwhile, it also can do conversation among the three encodings.
 	
 	use Encodings::CN::Utility; 
-	print hz2gbk("С"); #expected "d0a1"
-	print gbk2hz("d0a1"); #expected "С"
+	print hz2gbk("小"); #expected "d0a1"
+	print gbk2hz("d0a1"); #expected "小"
 
 
 =head1 METHODS
@@ -136,7 +134,7 @@ convert unicode encodings to the utf8 encodings of its correspoinding hanzi(s)
 
 =head1 AUTHOR
 
-Sal Zhong(��ΰ��) L<zhongxiang721@gmail.com>
+Sal Zhong(仲伟祥) L<zhongxiang721@gmail.com>
 
 =head1 COPYRIGHT
 
@@ -146,5 +144,4 @@ Copyright (c) 2007 Sal Zhong. All rights reserved.
 
 L<Encode>
 
-=cut
 
