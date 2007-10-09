@@ -12,4 +12,4 @@ no_index:
     - t
 requires: 
   Encode: 0
-version: 0.1
+version: 0.2

@@ -8,7 +8,7 @@ use Exporter;
 			 unicode2gbk unicode2utf8
 			 );
 
-$VERSION = '0.1';
+$VERSION = '0.2';
 
 use Encode;
 
@@ -51,8 +51,11 @@ sub AUTOLOAD {
 }
 
 1;
+__END__
 
 =pod
+
+=encoding utf8
 
 =head1 NAME
 
@@ -144,3 +147,4 @@ Copyright (c) 2007 Sal Zhong. All rights reserved.
 L<Encode>
 
 =cut
+
