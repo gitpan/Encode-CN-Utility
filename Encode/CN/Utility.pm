@@ -1,5 +1,6 @@
 package Encode::CN::Utility;
 
+use 5.006;
 use Exporter;
 @ISA = qw(Exporter);
 @EXPORT = qw(
@@ -8,7 +9,7 @@ use Exporter;
 			 unicode2gbk unicode2utf8
 			 );
 
-$VERSION = '0.3';
+$VERSION = '0.4';
 
 use Encode;
 
@@ -136,9 +137,10 @@ convert unicode encodings to the utf8 encodings of its correspoinding hanzi(s)
 
 Sal Zhong(仲伟祥) L<zhongxiang721@gmail.com>
 
-=head1 COPYRIGHT
+=head1 COPYRIGHT AND LICENSE
 
-Copyright (c) 2007 Sal Zhong. All rights reserved.
+This library is free software; you can redistribute it and/or modify
+it under the same terms as Perl itself.
 
 =head1 SEE ALSO
 
